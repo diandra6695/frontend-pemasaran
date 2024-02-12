@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen mt-12 mb-24">
       <div className="flex items-center">
-        <div className="bg-primary md:w-7/12 h-screen text-white">
+        <div className="bg-primary w-7/12 h-full text-white">
           <div className="lg:p-24 xl:p-32 h-full flex flex-col gap-10 justify-center">
             <div className="border-l-2">
               <h3 className="text-3xl pl-2  font-bold ">Pemasaran</h3>
@@ -31,10 +31,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center">
-          <div className="gambar xl:-m-16 lg:-m-12">
+        <div className="flex gap-20 items-center">
+          <div className="gambar -m-16">
             <Image
-              className="xl:h-[50rem] xl:w-[28rem] lg:h-[30rem] lg:w-[18rem] object-cover"
+              className="h-[40rem] w-[21rem] object-cover"
               width={1000}
               height={1000}
               src={maskotSatu}
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
           <div className="gambar ">
             <Image
-              className="xl:h-[50rem] xl:ml-28 lg:ml-20 xl:w-[20rem] lg:h-[30rem] lg:w-[14rem] object-cover"
+              className="h-[40rem] w-[16rem] object-cover"
               width={1000}
               height={1000}
               src={maskotSatu}
