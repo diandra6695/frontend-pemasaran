@@ -4,7 +4,7 @@ import maskotSatu from "../../../../public/assets/img/hero/maskot-1.JPG";
 const Fasilitas = () => {
   return (
     <section className="container mx-auto mb-24">
-      <div className="flex flex-col gap-10">
+      <div className="flex mx-10 flex-col gap-10">
         <div className="">
           <Image
             className="w-full h-[25rem] object-cover"

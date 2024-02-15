@@ -11,9 +11,9 @@ const Footer = () => {
   //mendapatkan tahun saat ini
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-5">
-      <div className="bg-primary text-white w-full container p-10">
-        <div className="flex">
+    <footer className="">
+      <div className="bg-primary text-white w-full container py-10 px-20">
+        <div className="flex gap-5">
           <div className=" flex flex-col gap-3 w-1/3">
             <Image
               width={250}
@@ -21,7 +21,7 @@ const Footer = () => {
               src={logoPemasaranWhite}
               alt="logo"
             />
-            <p className="text-sm">
+            <p className="text-xs">
               &copy;{year} PEMASARAN SMK NEGERI 1 BANGSRI | All Rights Reserved
             </p>
             <span className=" flex gap-2 items-center">
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className=" w-1/3">
             <h3 className="text-xl font-bold">Menu Utama</h3>
-            <div className="flex gap-16 mt-2">
+            <div className="flex gap-32 mt-2">
               <ul className="text-sm flex flex-col gap-1">
                 <li>
                   <Link href="">Beranda</Link>
