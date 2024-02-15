@@ -5,7 +5,7 @@ const Button = ({ text, link }) => {
     <div className="">
       <Link
         href={link}
-        className="bg-primary flex justify-center items-center text-white p-4 xl:text-base lg:text-sm lg:w-44 xl:w-48"
+        className="bg-primary flex justify-center items-center text-white lg:p-4 p-3 text-sm xl:text-base lg:text-sm lg:w-44 xl:w-48"
       >
         {text}
       </Link>

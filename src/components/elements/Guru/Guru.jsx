@@ -3,16 +3,18 @@ import Kajur from "../../../../public/assets/img/kajur.png";
 
 const Guru = () => {
   return (
-    <section className="container mb-24">
-      <div className="mx-10">
+    <section id="guru" className="md:container md:mx-auto pt-24">
+      <div className="md:mx-10 px-4">
         <header className="mb-10">
-          <h3 className="text-3xl font-bold">Guru Produktif Pemasaran</h3>
-          <p className="max-w-xl">
+          <h3 className="md:text-3xl text-2xl font-bold mb-2">
+            Guru Produktif Pemasaran
+          </h3>
+          <p className="max-w-xl md:text-base text-sm">
             Guru yang mengajar pelajaran seputar pemasaran seperti Berjualan,
             Tutorial Profit, dll.
           </p>
         </header>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
           <div className="w-full flex justify-center">
             <div className="w-[20rem] h-[28rem]">
               <div className="absolute w-[20rem] h-[28rem] bg-gradient-to-t from-primary from-0% hover:from-5% transition-colors">

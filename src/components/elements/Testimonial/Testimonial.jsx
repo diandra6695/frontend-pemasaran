@@ -21,11 +21,13 @@ const Testimonial = () => {
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
   return (
-    <section className="container mx-auto mb-24">
-      <div className="grid grid-cols-2 mx-10">
+    <section id="testimoni" className="md:container md:mx-auto pt-24">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:mx-10 px-4">
         <div className="flex flex-col gap-5">
-          <h3 className="text-3xl font-bold mt-16">Testimonial</h3>
-          <p className="max-w-xl">
+          <h3 className="md:text-3xl text-2xl text-primary font-bold">
+            Testimonial
+          </h3>
+          <p className="max-w-xl md:text-base text-sm md:mb-0 mb-5">
             Lorem ipsum dolor sit amet consectetur. Vitae amet hac sed risus. Mi
             tempus sapien sit maec Mi tempus sapien sitLorem ipsum dolor sit
             amet consectetur.
