@@ -37,7 +37,7 @@ const Navbar = () => {
               </SheetHeader>
               <ul className="flex flex-col text-end justify-center gap-7 text-sm">
                 <li>
-                  <Link href={""}>Beranda</Link>
+                  <Link href={"/"}>Beranda</Link>
                 </li>
                 <li>
                   <Link href={"#about"}>Tentang kami</Link>
@@ -67,28 +67,28 @@ const Navbar = () => {
         <div className="list hidden lg:block">
           <ul className="flex justify-center gap-7 text-sm">
             <li>
-              <Link href={""}>Beranda</Link>
+              <Link href={"/"}>Beranda</Link>
             </li>
             <li>
-              <Link href={"#about"}>Tentang kami</Link>
+              <Link href={"/#about"}>Tentang kami</Link>
             </li>
             <li>
-              <Link href={"#kegiatan"}>Kegiatan</Link>
+              <Link href={"/#kegiatan"}>Kegiatan</Link>
             </li>
             <li>
-              <Link href={"#fasilitas"}>Fasilitas</Link>
+              <Link href={"/#fasilitas"}>Fasilitas</Link>
             </li>
             <li>
-              <Link href={"#guru"}>Guru</Link>
+              <Link href={"/#guru"}>Guru</Link>
             </li>
             <li>
-              <Link href={"#kelas"}>Kelas</Link>
+              <Link href={"/#kelas"}>Kelas</Link>
             </li>
             <li>
-              <Link href={"#testimoni"}>Testimoni</Link>
+              <Link href={"/#testimoni"}>Testimoni</Link>
             </li>
             <li>
-              <Link href={"#kontak"}>Kontak</Link>
+              <Link href={"/#kontak"}>Kontak</Link>
             </li>
           </ul>
         </div>

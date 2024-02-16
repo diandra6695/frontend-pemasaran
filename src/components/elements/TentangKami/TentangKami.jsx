@@ -63,7 +63,7 @@ const TenatangKami = () => {
               voluptate. Quia dolores omnis laudantium, necessitatibus sunt
               quod, ad nisi quas fugiat aperiam voluptas.
             </p>
-            <Button text="Lihat Selengkapnya" link="/" />
+            <Button text="Lihat Selengkapnya" link="/about" />
           </div>
         </div>
       </div>

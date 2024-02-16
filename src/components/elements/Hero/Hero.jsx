@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="lg:hidden flex items-center gap-4">
               <div className="gambar lg:-m-16">
                 <Image
-                  className="w-56 h-96 object-cover"
+                  className="w-56 h-96 object-cover pointer-events-none"
                   width={1000}
                   height={1000}
                   src={maskotSatu}
@@ -44,7 +44,7 @@ const Hero = () => {
               </div>
               <div className="gambar ">
                 <Image
-                  className="w-44 h-96 object-cover"
+                  className="w-44 h-96 object-cover pointer-events-none"
                   width={1000}
                   height={1000}
                   src={maskotSatu}
