@@ -1,24 +1,27 @@
 import Button from "../utils/Button";
-import maskotSatu from "../../../../public/assets/img/hero/maskot-1.JPG";
+import maskotSatu from "../../../../public/assets/img/kegiatan/kegiatan-maskot-1.JPG";
+import maskotDua from "../../../../public/assets/img/kegiatan/kegiatan-maskot-2.JPG";
+import maskotTiga from "../../../../public/assets/img/kegiatan/kegiatan-maskot-3.JPG";
 import Image from "next/image";
 
 const Kegiatan = () => {
   return (
-    <section id="kegiatan" className="md:container md:mx-auto px-6 pt-24">
-      <div className="lg:grid flex flex-col lg:grid-cols-3 grid-flow-col gap-10">
+    <section id="kegiatan" className="md:container md:mx-auto px-4 pt-24">
+      <div className="lg:grid flex flex-col lg:grid-cols-3 grid-flow-col md:mx-10 md:p-0 gap-10">
         <div className="col-span-1 flex flex-col gap-7 justify-center">
-          <h3 className="xl:font-black lg:font-bold xl:text-4xl lg:text-3xl text-2xl font-bold text-primary">
+          <h3 className="md:text-3xl text-2xl text-primary font-bold">
             Kegiatan Apa yang Kita Lakukan?
           </h3>
           <p className="md:text-base text-sm">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet hac sed risus. Mi
-            tempus sapien sit maec Mi tempus sapien sitLorem ipsum dolor sit
-            amet consectetur.
+            Kamu akan terjun langsung ke dunia nyata dengan praktik berjualan di
+            toko dan kantin sekolah. Kunjungi berbagai toko ternama untuk
+            mempelajari strategi dan praktik terbaik dari para profesional.
+            Tempa jiwa entrepreneur dan kemandirian dengan berjualan online di
+            aplikasi belanja populer.
           </p>
           <p className="md:text-base text-sm">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet hac sed risus. Mi
-            tempus sapien sit maec Mi tempus sapien sitLorem ipsum dolor sit
-            amet consectetur.
+            Dapatkan pengalaman berharga, bangun mental dan kemampuan berjualan
+            yang handal, dan raih masa depan gemilang di dunia marketing!
           </p>
           <div className="md:block hidden">
             <Button text="Lihat Selengkapnya" link="/" />
@@ -38,8 +41,8 @@ const Kegiatan = () => {
             <div className="md:w-96 flex flex-col gap-3">
               <h3 className="font-bold text-xl">Berjualan</h3>
               <p className="md:text-base text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                Aliquid, et.
+                kami berlatih berjualan di bisnis center sekolah dan kantin
+                sekolah.
               </p>
             </div>
           </div>
@@ -47,17 +50,16 @@ const Kegiatan = () => {
             <div className="">
               <Image
                 className="md:w-[16rem] md:h-[10rem] w-56 h-36 object-cover"
-                src={maskotSatu}
+                src={maskotDua}
                 alt="maskot-satu"
                 width={700}
                 height={700}
               />
             </div>
             <div className="md:w-96 flex flex-col gap-3">
-              <h3 className="font-bold text-xl">Berjualan</h3>
+              <h3 className="font-bold text-xl">Kunjungan Industri</h3>
               <p className="md:text-base text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                Aliquid, et.
+                kami mengunjungi toko di luar sekolah setiap beberapa bulan.
               </p>
             </div>
           </div>
@@ -65,17 +67,16 @@ const Kegiatan = () => {
             <div className="">
               <Image
                 className="md:w-[16rem] md:h-[10rem] w-56 h-36 object-cover"
-                src={maskotSatu}
+                src={maskotTiga}
                 alt="maskot-satu"
                 width={700}
                 height={700}
               />
             </div>
             <div className="md:w-96 flex flex-col gap-3">
-              <h3 className="font-bold text-xl">Berjualan</h3>
+              <h3 className="font-bold text-xl">Bisnis Online</h3>
               <p className="md:text-base text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                Aliquid, et.
+                kami melakukan penjualan online di platform shop
               </p>
             </div>
           </div>

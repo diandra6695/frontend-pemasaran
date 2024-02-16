@@ -60,9 +60,6 @@ const Footer = () => {
                     <Link href="">Guru</Link>
                   </li>
                   <li>
-                    <Link href="">Kelas</Link>
-                  </li>
-                  <li>
                     <Link href="">Testimoni</Link>
                   </li>
                   <li>
@@ -81,10 +78,6 @@ const Footer = () => {
                 <div className="text-sm">
                   <span className="font-bold">Email</span> :
                   smkn1bangsri@yahoo.co.id bdpsmkn1bangsri@yahoo.co.id
-                </div>
-                <div className="text-sm">
-                  <span className="font-bold">Phone</span> : kosong lapan berapa
-                  hayo
                 </div>
               </div>
             </div>

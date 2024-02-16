@@ -1,5 +1,5 @@
 import Image from "next/image";
-import maskotSatu from "../../../../public/assets/img/hero/maskot-1.JPG";
+import maskotSatu from "../../../../public/assets/img/fasilitas/fasilitas.jpg";
 
 const Fasilitas = () => {
   return (
@@ -25,22 +25,22 @@ const Fasilitas = () => {
             <div className="">
               <h3 className="font-semibold text-lg mb-2">Laboratorium</h3>
               <p className="md:text-base text-sm">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Excepturi doloribus odio nulla dicta. Corrupti, maxime?
+                Di dalam ruang lab, kami menyediakan berbagai fasilitas seperti
+                komputer, printer, internet, dll.
               </p>
             </div>
             <div className="">
-              <h3 className="font-semibold text-lg mb-2">Laboratorium</h3>
+              <h3 className="font-semibold text-lg mb-2">Komputer</h3>
               <p className="md:text-base text-sm">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Excepturi doloribus odio nulla dicta. Corrupti, maxime?
+                Kami sediakan komputer dengan spesifikasi mumpuni untuk
+                pengelolaan bisnis online yang lancar dan efisien
               </p>
             </div>
             <div className="">
-              <h3 className="font-semibold text-lg mb-2">Laboratorium</h3>
+              <h3 className="font-semibold text-lg mb-2">Bussines Center</h3>
               <p className="md:text-base text-sm">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Excepturi doloribus odio nulla dicta. Corrupti, maxime?
+                Sekolah menyediakan pusat bisnis untuk digunakan sebagai tempat
+                praktik pemasaran.
               </p>
             </div>
           </div>

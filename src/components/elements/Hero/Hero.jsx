@@ -1,27 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import maskotSatu from "../../../../public/assets/img/hero/maskot-1.JPG";
+import maskotDua from "../../../../public/assets/img/hero/maskot-2.JPG";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen lg:mt-12 mt-1">
+    <div className="min-h-screen lg:mt-12 lg:p-0">
       <div className="flex flex-col lg:flex-row items-center">
-        <div className="bg-primary lg:w-7/12 h-screen text-white">
+        <div className="bg-primary lg:w-7/12 md:h-screen h-[60rem] text-white">
           <div className="lg:p-24 xl:p-32 px-4 h-full flex flex-col lg:gap-10 gap-5 justify-center">
             <div className="border-l-2">
               <h3 className="lg:text-3xl text-xl pl-2 font-bold ">Pemasaran</h3>
               <p className="pl-2 lg:text-base text-sm">SMK Negeri 1 Bangsri</p>
             </div>
             <header>
-              <h3 className="scroll-m-20 lg:text-4xl text-3xl lg:font-extrabold font-bold tracking-tight">
-                Jurusan yang Mengenalkan Tentang Cara Berjualan
+              <h3 className="scroll-m-20 lg:text-4xl text-3xl lg:font-bold font-bold tracking-tight">
+                Kuasai Teknik Pemasaran Modern di SMKN 1 Bangsri
               </h3>
             </header>
-            <div className="xl:text-xl lg:text-base text-sm">
+            <div className="xl:text-base text-sm">
               <p>
-                Kami mengenalkan cara yang tepat dari berjualan seperti tata
-                letak toko, harga yang direkomendasikan, ataupun perhitungan
-                untng dan rugi
+                Mbekali kamu dengan seni berjualan. Pelajari cara menata toko
+                yang menarik, menentukan harga yang tepat, dan mengelola
+                keuangan dengan cerdas. Raih masa depanmu sebagai pengusaha
+                sukses bersama kami!
               </p>
             </div>
             <div className="button lg:mt-5 mt-3 mb-3">
@@ -47,7 +49,7 @@ const Hero = () => {
                   className="w-44 h-96 object-cover pointer-events-none"
                   width={1000}
                   height={1000}
-                  src={maskotSatu}
+                  src={maskotDua}
                   alt="hero"
                 />
               </div>
@@ -69,7 +71,7 @@ const Hero = () => {
               className="h-[30rem] w-[12rem] object-cover"
               width={1000}
               height={1000}
-              src={maskotSatu}
+              src={maskotDua}
               alt="hero"
             />
           </div>

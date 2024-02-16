@@ -52,9 +52,6 @@ const Navbar = () => {
                   <Link href={"#guru"}>Guru</Link>
                 </li>
                 <li>
-                  <Link href={"#kelas"}>Kelas</Link>
-                </li>
-                <li>
                   <Link href={"#testimoni"}>Testimoni</Link>
                 </li>
                 <li>
@@ -80,9 +77,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link href={"/#guru"}>Guru</Link>
-            </li>
-            <li>
-              <Link href={"/#kelas"}>Kelas</Link>
             </li>
             <li>
               <Link href={"/#testimoni"}>Testimoni</Link>

@@ -16,7 +16,6 @@ export default function Home() {
       <Kegiatan />
       <Fasilitas />
       <Guru />
-      <Kelas />
       <Testimonial />
     </main>
   );

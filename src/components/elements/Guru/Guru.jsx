@@ -1,5 +1,8 @@
 import Image from "next/image";
-import Kajur from "../../../../public/assets/img/kajur.png";
+import rizki from "../../../../public/assets/img/guru/ShaifurRizqiZein.png";
+import ika from "../../../../public/assets/img/guru/IkaHeniWahyuningsih.png";
+import tita from "../../../../public/assets/img/guru/TitaAmelia.png";
+import wahyu from "../../../../public/assets/img/guru/WahyuIriyanti.png";
 
 const Guru = () => {
   return (
@@ -21,17 +24,13 @@ const Guru = () => {
                 {/* teks berada di bawah */}
                 <div className="absolute bottom-0 text-white p-5">
                   <h3 className=" text-xl font-bold text-white">
-                    HENDRA KUSWANDI
+                    Shaifur Rizqi Zein, S.Pd
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam, animi!
-                  </p>
                 </div>
               </div>
               <Image
                 className="object-cover w-[20rem] h-[28rem]"
-                src={Kajur}
+                src={rizki}
                 height={350}
                 width={350}
                 alt="maskot-satu"
@@ -44,17 +43,13 @@ const Guru = () => {
                 {/* teks berada di bawah */}
                 <div className="absolute bottom-0 text-white p-5">
                   <h3 className=" text-xl font-bold text-white">
-                    HENDRA KUSWANDI
+                    Tita Amelia, S.Pd
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam, animi!
-                  </p>
                 </div>
               </div>
               <Image
                 className="object-cover w-[20rem] h-[28rem]"
-                src={Kajur}
+                src={tita}
                 height={350}
                 width={350}
                 alt="maskot-satu"
@@ -67,17 +62,13 @@ const Guru = () => {
                 {/* teks berada di bawah */}
                 <div className="absolute bottom-0 text-white p-5">
                   <h3 className=" text-xl font-bold text-white">
-                    HENDRA KUSWANDI
+                    Ika Heni Wahyuningsih, S.Pd
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam, animi!
-                  </p>
                 </div>
               </div>
               <Image
                 className="object-cover w-[20rem] h-[28rem]"
-                src={Kajur}
+                src={ika}
                 height={350}
                 width={350}
                 alt="maskot-satu"
@@ -90,17 +81,13 @@ const Guru = () => {
                 {/* teks berada di bawah */}
                 <div className="absolute bottom-0 text-white p-5">
                   <h3 className=" text-xl font-bold text-white">
-                    HENDRA KUSWANDI
+                    Wahyu Iriyanti, S.Pd
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam, animi!
-                  </p>
                 </div>
               </div>
               <Image
                 className="object-cover w-[20rem] h-[28rem]"
-                src={Kajur}
+                src={wahyu}
                 height={350}
                 width={350}
                 alt="maskot-satu"
